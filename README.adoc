@@ -1,0 +1,6 @@
+= Can Jenkins.getInstance() ever return null?
+
+This repo currently shows that even a init.d script cannot retrieve a null Jenkins instance
+through the call to `Jenkins.getInstance()`.
+
+See https://github.com/jenkinsci/jenkins/pull/2297 for reference
